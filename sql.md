@@ -47,3 +47,16 @@ values
 
 ```
 ---
+***Print Table:***<br>
+Print or execute table using this query:<br>
+for printing whole table:<br>
+```sql
+select * from students;
+```
+for specific column or row:<br>
+```sql
+select id
+from students
+where id=02;
+```
+---
