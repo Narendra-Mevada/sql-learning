@@ -19,8 +19,20 @@ use database_name;
 
 ***Cretate Table:***<br>
 We store data in table formate in Data base,<br>
-For creating table we write query like this:<br>
+For creating table and adding column we write query like this:<br>
 ```sql
-create table table_name;
+create table table_name(
+    column_1 data_type constarin,
+    column_2 data_type constarin,
+    column_1 data_type constarin
+    );
+```
+for example:
+```sql
+create table students(
+    id int primary key,
+    name varchar(50),
+    age int not null
+    );
 ```
 ---
