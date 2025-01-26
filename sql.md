@@ -16,3 +16,11 @@ With the help of it we can use database, after write "USE" query next all query 
 use database_name;
 ```
 ---
+
+***Cretate Table:***<br>
+We store data in table formate in Data base,<br>
+For creating table we write query like this:<br>
+```sql
+create table table_name;
+```
+---
