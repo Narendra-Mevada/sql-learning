@@ -68,3 +68,13 @@ set name='Vishal Mevada'
 where id=03;
 ```
 ---
+***Delete Data:***<br>
+for Delete data in existing table we write query like this:<br>
+```sql
+delete from students
+where id=02;
+```
+---
+---
+---
+---
