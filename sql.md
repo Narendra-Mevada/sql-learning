@@ -36,3 +36,14 @@ create table students(
     );
 ```
 ---
+***Insert Data:***<br>
+For inserting data into table we write query like this (we use exaple as "student" table ):<br>
+```sql
+insert into students (id,name,age)
+values
+(01,'Narendra Mevada',18),
+(02,'Ankit Mevada',19),
+(03,'Karan Mevada',20);
+
+```
+---
