@@ -60,3 +60,11 @@ from students
 where id=02;
 ```
 ---
+***Update Data:***<br>
+for update data in existing table we write query like this:<br>
+```sql
+update students
+set name='Vishal Mevada'
+where id=03;
+```
+---
